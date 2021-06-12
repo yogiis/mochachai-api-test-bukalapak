@@ -1,0 +1,18 @@
+{
+  "author": "yogi is ariyanto",
+  "license": "ISC",
+  "name": "apitestingbl",
+  "version": "1.0.0",
+  "description": "Automation Api Testing BL",
+  "dependencies": {
+    "chai": "4.3.3",
+    "chai-json-schema": "^1.5.1",
+    "dotenv": "^10.0.0",
+    "mocha": "9.0.0",
+    "supertest": "6.1.3",
+    "mochawesome": "^6.2.2"
+  },
+  "scripts": {
+    "tests": "mocha ./tests --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 10000"
+  }
+}
